@@ -1,7 +1,7 @@
 {
-  "name": "docker-python-sandbox",
+  "name": "docker-python-sandbox-pythonbuddy",
   "version": "0.0.7",
-  "description": "A docker-based sandbox to execute untrusted python code",
+  "description": "A docker-based sandbox to execute untrusted python code for PythonBuddy",
   "main": "./lib/Sandbox",
   "scripts": {
     "test": "./scripts/run_tests.sh unit integration",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/christophetd/docker-python-sandbox-v2.git"
+    "url": "git+https://github.com/ethanchewy/PythonBuddySandbox.git"
   },
-  "author": "Christophe Tafani-Dereeper <christophe@tafani-dereeper.me>",
+  "author": "Ethan Chiu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/christophetd/docker-python-sandbox-v2/issues"
+    "url": "https://github.com/ethanchewy/PythonBuddySandbox/issues"
   },
-  "homepage": "https://github.com/christophetd/docker-python-sandbox-v2#readme",
+  "homepage": "https://github.com/ethanchewy/PythonBuddySandbox#readme",
   "dependencies": {
     "async": "^2.0.0-rc.3",
     "babel-core": "^6.26.0",
