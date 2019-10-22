@@ -19,7 +19,7 @@ mccabe==0.6.1
 monotonic==1.5
 netifaces==0.10.6
 pylint==2.1.0
-python-engineio==2.2.0
+python-engineio==3.8.2.post1
 python-socketio==2.0.0
 requests==2.19.1
 RestrictedPython==4.0b4
